@@ -32,7 +32,7 @@ namespace Test_giaodien
             };
             Label subtitle = new Label
             {
-                Text = "Giao diện khởi tạo - chưa kết nối cơ sở dữ liệu",
+                Text = "Dữ liệu được kết nối từ SQL Server",
                 AutoSize = false,
                 Dock = DockStyle.Top,
                 Height = 34,
