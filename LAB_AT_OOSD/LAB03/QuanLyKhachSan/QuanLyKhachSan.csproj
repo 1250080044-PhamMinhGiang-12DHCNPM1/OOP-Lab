@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,12 +47,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
-    </Compile>
+    <Compile Include="Forms\UiTheme.cs" />
+    <Compile Include="Forms\FrmDangNhap.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmDangNhap.Designer.cs"><DependentUpon>FrmDangNhap.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmDangNhap.resx"><DependentUpon>FrmDangNhap.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmMain.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmMain.Designer.cs"><DependentUpon>FrmMain.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmMain.resx"><DependentUpon>FrmMain.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmDanhMuc.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmDanhMuc.Designer.cs"><DependentUpon>FrmDanhMuc.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmDanhMuc.resx"><DependentUpon>FrmDanhMuc.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmPhongTienNghi.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmPhongTienNghi.Designer.cs"><DependentUpon>FrmPhongTienNghi.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmPhongTienNghi.resx"><DependentUpon>FrmPhongTienNghi.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmDatPhong.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmDatPhong.Designer.cs"><DependentUpon>FrmDatPhong.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmDatPhong.resx"><DependentUpon>FrmDatPhong.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmDichVu.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmDichVu.Designer.cs"><DependentUpon>FrmDichVu.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmDichVu.resx"><DependentUpon>FrmDichVu.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmTraPhong.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmTraPhong.Designer.cs"><DependentUpon>FrmTraPhong.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmTraPhong.resx"><DependentUpon>FrmTraPhong.cs</DependentUpon></EmbeddedResource>
+    <Compile Include="Forms\FrmThongKe.cs"><SubType>Form</SubType></Compile>
+    <Compile Include="Forms\FrmThongKe.Designer.cs"><DependentUpon>FrmThongKe.cs</DependentUpon></Compile>
+    <EmbeddedResource Include="Forms\FrmThongKe.resx"><DependentUpon>FrmThongKe.cs</DependentUpon></EmbeddedResource>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
