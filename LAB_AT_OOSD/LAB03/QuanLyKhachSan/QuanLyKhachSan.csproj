@@ -47,6 +47,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\Db.cs" />
+    <Compile Include="Models\KetQua.cs" />
+    <Compile Include="Models\PhienDangNhap.cs" />
+    <Compile Include="Services\DangNhapService.cs" />
+    <Compile Include="Services\DanhMucService.cs" />
+    <Compile Include="Services\PhongTienNghiService.cs" />
+    <Compile Include="Services\NghiepVuService.cs" />
     <Compile Include="Forms\UiTheme.cs" />
     <Compile Include="Forms\FrmDangNhap.cs"><SubType>Form</SubType></Compile>
     <Compile Include="Forms\FrmDangNhap.Designer.cs"><DependentUpon>FrmDangNhap.cs</DependentUpon></Compile>

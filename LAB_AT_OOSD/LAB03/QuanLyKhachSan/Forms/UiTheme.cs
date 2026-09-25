@@ -1,4 +1,5 @@
 using System.Drawing;
+using System.Collections.Generic;
 using System.Windows.Forms;
 
 namespace QuanLyKhachSan.Forms
@@ -58,25 +59,41 @@ namespace QuanLyKhachSan.Forms
 
         public static Panel Card(string caption, string value, Color accent)
         {
-            var p = new Panel { BackColor = Color.White, Width = 190, Height = 105, Margin = new Padding(8) };
+            var p = new Panel { Name = "card", Tag = caption, BackColor = Color.White, Width = 190, Height = 105, Margin = new Padding(8) };
             p.Controls.Add(new Panel { Dock = DockStyle.Left, Width = 5, BackColor = accent });
             p.Controls.Add(new Label { Text = caption, AutoSize = true, ForeColor = Color.DimGray, Location = new Point(20, 18) });
-            p.Controls.Add(new Label { Text = value, AutoSize = true, ForeColor = Navy, Font = new Font("Segoe UI Semibold", 24F), Location = new Point(18, 45) });
+            p.Controls.Add(new Label { Name = "lblCardValue", Text = value, AutoSize = true, ForeColor = Navy, Font = new Font("Segoe UI Semibold", 24F), Location = new Point(18, 45) });
             return p;
         }
 
         public static TabPage CrudPage(string title, string[] columns, string[] fields)
         {
-            var page = new TabPage(title) { BackColor = Background, Padding = new Padding(12) };
+            var page = new TabPage(title) { Name = "tabData", BackColor = Background, Padding = new Padding(12) };
             var layout = new TableLayoutPanel { Dock = DockStyle.Fill, RowCount = 3, ColumnCount = 1 };
             layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 52)); layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 145));
             var search = new FlowLayoutPanel { Dock = DockStyle.Fill, Padding = new Padding(3, 6, 3, 3) };
-            search.Controls.Add(new Label { Text = "Tìm kiếm", AutoSize = true, Margin = new Padding(0, 10, 8, 0) }); search.Controls.Add(Input("txtTim")); search.Controls.Add(Button("Làm mới", false));
-            layout.Controls.Add(search, 0, 0); layout.Controls.Add(Grid(columns), 0, 1);
+            search.Controls.Add(new Label { Text = "Tìm kiếm", AutoSize = true, Margin = new Padding(0, 10, 8, 0) }); search.Controls.Add(Input("txtTim")); var refreshTop = Button("Làm mới", false); refreshTop.Name = "btnTaiLai"; search.Controls.Add(refreshTop);
+            layout.Controls.Add(search, 0, 0); var grid = Grid(columns); grid.Name = "dgvData"; layout.Controls.Add(grid, 0, 1);
             var editor = new FlowLayoutPanel { Dock = DockStyle.Fill, AutoScroll = true, BackColor = Color.White, Padding = new Padding(8) };
-            foreach (string f in fields) editor.Controls.Add(Field(f, Input("txt" + f.Replace(" ", ""))));
-            editor.Controls.Add(Button("Thêm", true)); editor.Controls.Add(Button("Sửa", false)); editor.Controls.Add(Button("Xóa", false)); editor.Controls.Add(Button("Làm mới", false));
+            for (int i = 0; i < fields.Length; i++) editor.Controls.Add(Field(fields[i], Input("txtField" + i)));
+            var add = Button("Thêm", true); add.Name = "btnThem"; var edit = Button("Sửa", false); edit.Name = "btnSua"; var delete = Button("Xóa", false); delete.Name = "btnXoa"; var clear = Button("Làm mới", false); clear.Name = "btnLamMoi";
+            editor.Controls.Add(add); editor.Controls.Add(edit); editor.Controls.Add(delete); editor.Controls.Add(clear);
             layout.Controls.Add(editor, 0, 2); page.Controls.Add(layout); return page;
+        }
+
+        public static T Find<T>(Control root, string name) where T : Control
+        {
+            foreach (Control control in root.Controls) { if (control is T && control.Name == name) return (T)control; T child = Find<T>(control, name); if (child != null) return child; }
+            return null;
+        }
+
+        public static List<T> FindAll<T>(Control root) where T : Control
+        {
+            var result = new List<T>(); FindAll(root, result); return result;
+        }
+        private static void FindAll<T>(Control root, List<T> result) where T : Control
+        {
+            foreach (Control control in root.Controls) { if (control is T) result.Add((T)control); FindAll(control, result); }
         }
     }
 }

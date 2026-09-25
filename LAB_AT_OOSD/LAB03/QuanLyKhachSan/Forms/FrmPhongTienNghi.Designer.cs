@@ -16,11 +16,11 @@ namespace QuanLyKhachSan.Forms
             tabs.TabPages.Add(UiTheme.CrudPage("Tiện nghi", new[] { "Mã tiện nghi", "Loại", "Số thứ tự", "Tình trạng" }, new[] { "Mã tiện nghi", "Loại tiện nghi", "Số thứ tự", "Tình trạng" }));
             var lapDat = new TabPage("Lắp đặt - Luân chuyển") { BackColor = UiTheme.Background, Padding = new Padding(12) };
             var layout = new TableLayoutPanel { Dock = DockStyle.Fill, RowCount = 2, ColumnCount = 1 }; layout.RowStyles.Add(new RowStyle(SizeType.Percent, 100)); layout.RowStyles.Add(new RowStyle(SizeType.Absolute, 155));
-            var grid = UiTheme.Grid("Số phiếu", "Mã tiện nghi", "Số phòng", "Ngày lắp", "Tình trạng", "Nhân viên"); layout.Controls.Add(grid, 0, 0);
+            var grid = UiTheme.Grid("Số phiếu", "Mã tiện nghi", "Số phòng", "Ngày lắp", "Tình trạng", "Nhân viên"); grid.Name = "dgvLapDat"; layout.Controls.Add(grid, 0, 0);
             var editor = new FlowLayoutPanel { Dock = DockStyle.Fill, BackColor = Color.White, Padding = new Padding(8), AutoScroll = true };
             editor.Controls.Add(UiTheme.Field("Số phiếu", UiTheme.Input("txtSoPhieu"))); editor.Controls.Add(UiTheme.Field("Tiện nghi", UiTheme.Combo("cboTienNghi", "TV01", "TV02", "TL01", "DT01")));
-            editor.Controls.Add(UiTheme.Field("Phòng", UiTheme.Combo("cboPhong", "A101", "A102", "B201"))); editor.Controls.Add(UiTheme.Field("Ngày lắp", new DateTimePicker { Width = 180, Format = DateTimePickerFormat.Custom, CustomFormat = "dd/MM/yyyy" }));
-            editor.Controls.Add(UiTheme.Field("Tình trạng", UiTheme.Combo("cboTinhTrang", "Tốt", "Cần bảo trì", "Hỏng"))); editor.Controls.Add(UiTheme.Button("Lập phiếu", true)); editor.Controls.Add(UiTheme.Button("Làm mới", false));
+            editor.Controls.Add(UiTheme.Field("Phòng", UiTheme.Combo("cboPhong", "A101", "A102", "B201"))); editor.Controls.Add(UiTheme.Field("Ngày lắp", new DateTimePicker { Name = "dtNgayLap", Width = 180, Format = DateTimePickerFormat.Custom, CustomFormat = "dd/MM/yyyy" }));
+            editor.Controls.Add(UiTheme.Field("Tình trạng", UiTheme.Combo("cboTinhTrang", "Tốt", "Cần bảo trì", "Hỏng"))); var lap = UiTheme.Button("Lập phiếu", true); lap.Name = "btnLapPhieu"; editor.Controls.Add(lap); var reload = UiTheme.Button("Làm mới", false); reload.Name = "btnTaiLapDat"; editor.Controls.Add(reload);
             layout.Controls.Add(editor, 0, 1); lapDat.Controls.Add(layout); tabs.TabPages.Add(lapDat);
             Controls.Add(tabs); Controls.Add(header);
         }
