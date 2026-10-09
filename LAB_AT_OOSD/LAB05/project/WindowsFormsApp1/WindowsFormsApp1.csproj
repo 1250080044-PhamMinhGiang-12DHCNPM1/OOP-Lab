@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{830416DC-FDFD-4C77-A7F6-8182BC414927}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>WindowsFormsApp1</RootNamespace>
-    <AssemblyName>WindowsFormsApp1</AssemblyName>
+    <RootNamespace>QuanLyCongTyDuLich</RootNamespace>
+    <AssemblyName>QuanLyCongTyDuLich</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -39,6 +39,7 @@
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="System.Data" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Deployment" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Net.Http" />
@@ -53,6 +54,26 @@
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Data\Db.cs" />
+    <Compile Include="Services\Models.cs" />
+    <Compile Include="Services\DanhMucService.cs" />
+    <Compile Include="Services\TourService.cs" />
+    <Compile Include="Services\ChuyenLeService.cs" />
+    <Compile Include="Services\DangKyLeService.cs" />
+    <Compile Include="Services\DangKyDoanService.cs" />
+    <Compile Include="Services\PhanCongService.cs" />
+    <Compile Include="Services\KetThucService.cs" />
+    <Compile Include="Services\ThongKeService.cs" />
+    <Compile Include="Forms\Ui.cs" />
+    <Compile Include="Forms\FrmMain.cs" />
+    <Compile Include="Forms\FrmDanhMuc.cs" />
+    <Compile Include="Forms\FrmTour.cs" />
+    <Compile Include="Forms\FrmChuyenLe.cs" />
+    <Compile Include="Forms\FrmDangKyLe.cs" />
+    <Compile Include="Forms\FrmDangKyDoan.cs" />
+    <Compile Include="Forms\FrmPhanCongHDV.cs" />
+    <Compile Include="Forms\FrmKetThucKhaoSat.cs" />
+    <Compile Include="Forms\FrmLuongThongKe.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
