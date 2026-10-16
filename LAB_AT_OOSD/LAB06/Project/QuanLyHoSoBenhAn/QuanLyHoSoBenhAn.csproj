@@ -50,7 +50,9 @@
     <Compile Include="Models\PatientRegistration.cs" />
     <Compile Include="Services\PatientService.cs" />
     <Compile Include="Services\ClinicalService.cs" />
-    <Compile Include="Forms\FrmMain.cs" />
+    <Compile Include="Forms\FrmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,10 +1,10 @@
 /* LAB06 - Quan ly ho so benh an. Chay bang SQL Server / LocalDB voi ma UTF-8. */
 USE master;
 GO
-IF DB_ID(N'QuanLyHoSoBenhAnDB') IS NULL
-    CREATE DATABASE QuanLyHoSoBenhAnDB;
+IF DB_ID(N'QuanLyHoSoBenhAnLab06') IS NULL
+    CREATE DATABASE QuanLyHoSoBenhAnLab06;
 GO
-USE QuanLyHoSoBenhAnDB;
+USE QuanLyHoSoBenhAnLab06;
 GO
 
 /* Xoa schema cu de script co the chay lai tren database lab. */

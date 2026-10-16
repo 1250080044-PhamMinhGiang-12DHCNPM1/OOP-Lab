@@ -43,7 +43,7 @@ namespace QuanLyHoSoBenhAn.Forms
         private TabPage CreateRegistrationTab()
         {
             var page = new TabPage("Đăng ký - Hồ sơ"); var layout = NewLayout();
-            _name = AddText(layout, "Họ tên", 0); _birthDate = AddDate(layout, "Ngày sinh", 1); _phone = AddText(layout, "Điện thoại", 2);
+            _name = AddText(layout, "Họ tên", 0); _birthDate = AddDate(layout, "Ngày sinh", 1); _birthDate.MaxDate = DateTime.Today; _phone = AddText(layout, "Điện thoại", 2);
             _address = AddText(layout, "Địa chỉ", 3); _photo = AddText(layout, "Đường dẫn ảnh 3x4", 4); _annualFee = AddMoney(layout, "Lệ phí năm", 5, 200000);
             var button = NewButton("Đăng ký, thu lệ phí và cấp hồ sơ"); button.Click += RegisterPatient; layout.Controls.Add(button, 1, 6);
             AddNote(layout, "Nghiệp vụ chạy transaction sp_DangKyCapHoSo: nếu thu lệ phí hoặc cấp hồ sơ lỗi, toàn bộ đăng ký sẽ được rollback.", 7);
@@ -103,7 +103,7 @@ namespace QuanLyHoSoBenhAn.Forms
 
         private static TableLayoutPanel NewLayout() { return new TableLayoutPanel { Dock = DockStyle.Top, AutoSize = true, ColumnCount = 2, Padding = new Padding(28), AutoScroll = true, ColumnStyles = { new ColumnStyle(SizeType.Absolute, 240), new ColumnStyle(SizeType.Percent, 100) } }; }
         private static TextBox AddText(TableLayoutPanel layout, string label, int row) { var box = new TextBox { Dock = DockStyle.Fill }; AddControl(layout, label, box, row); return box; }
-        private static DateTimePicker AddDate(TableLayoutPanel layout, string label, int row) { var value = new DateTimePicker { Dock = DockStyle.Fill, Format = DateTimePickerFormat.Short, MaxDate = DateTime.Today }; AddControl(layout, label, value, row); return value; }
+        private static DateTimePicker AddDate(TableLayoutPanel layout, string label, int row) { var value = new DateTimePicker { Dock = DockStyle.Fill, Format = DateTimePickerFormat.Short }; AddControl(layout, label, value, row); return value; }
         private static NumericUpDown AddMoney(TableLayoutPanel layout, string label, int row, decimal value) { var control = new NumericUpDown { Dock = DockStyle.Fill, Minimum = 1, Maximum = 10000000, Increment = 50000, Value = value, ThousandsSeparator = true }; AddControl(layout, label, control, row); return control; }
         private static void AddControl(TableLayoutPanel layout, string label, Control control, int row) { layout.RowStyles.Add(new RowStyle(SizeType.AutoSize)); layout.Controls.Add(new Label { Text = label + ":", AutoSize = true, TextAlign = ContentAlignment.MiddleLeft, Padding = new Padding(0, 7, 8, 7) }, 0, row); layout.Controls.Add(control, 1, row); }
         private static Button NewButton(string text) { return new Button { Text = text, AutoSize = true, Height = 34, BackColor = Color.FromArgb(28, 78, 121), ForeColor = Color.White, FlatStyle = FlatStyle.Flat, Padding = new Padding(8, 0, 8, 0) }; }
