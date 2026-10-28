@@ -21,14 +21,40 @@
 - **Có bằng chứng kiểm thử:** test tự động gọi trực tiếp tầng Service, kiểm tra trường hợp đúng và từ chối; dữ liệu tạm được dọn sau khi chạy.
 - **Truy vết rõ ràng:** yêu cầu/quy tắc → UML → Form/Service → bảng CSDL → test case, thuận tiện khi báo cáo và demo.
 
-## 🚀 Cách chạy nhanh
 
-1. Chạy `project/WindowsFormsApp1/Database/QuanLyCongTyDuLich.sql` trên SQL Server.
-2. Mở `project/WindowsFormsApp1/WindowsFormsApp1.csproj` bằng Visual Studio và Build.
-3. Kiểm tra chuỗi kết nối trong `App.config`, sau đó chạy ứng dụng.
-4. (Tùy chọn) Build và chạy `project/WindowsFormsApp1/Testing/Task4ServiceTests.csproj` để kiểm thử lại.
+## 🛠️ Công nghệ sử dụng
+
+![C#](https://img.shields.io/badge/C%23-WinForms-512BD4?logo=csharp&logoColor=white)
+![.NET Framework](https://img.shields.io/badge/.NET_Framework-4.7.2-5C2D91)
+![SQL Server](https://img.shields.io/badge/SQL_Server-Windows_Authentication-CC2927?logo=microsoftsqlserver&logoColor=white)
+![Visual Studio](https://img.shields.io/badge/Visual_Studio-2022-5C2D91?logo=visualstudio&logoColor=white)
+![draw.io](https://img.shields.io/badge/draw.io-UML-F08705?logo=diagramsdotnet&logoColor=white)
+
+## 📁 Cấu trúc chính
+
+```text
+LAB06/
+├── README.md
+├── word/
+│   ├── Bai_6_Quan_ly_cong_ty_du_lich.docx
+│   └── PhamMinhGiang-12DHCNPM1-1250080044.docx
+├── thietke/
+│   └── PhamMinhGiang-12DHCNPM1-LAB06.drawio
+└── project/Quan_ly_cong_ty_du_lich/
+    ├── Forms/FrmMain.cs
+    ├── Services/
+    ├── Data/Db.cs
+    ├── ....
+
+
+```
+## 👨‍🎓 Thông tin sinh viên
+
+- **Họ và tên:** Phạm Minh Giang
+- **MSSV:** 1250080044
+- **Lớp:** 12DHCNPM1
+- **Môn học:** Phân tích thiết kế hướng đối tượng
 
 ---
 
-📌 **Tên hệ thống:** `QuanLyCongTyDuLich`  
-🎯 **Mục tiêu:** đã hoàn thành LAB05.
+<p align="center">✨ UML nhất quán · CSDL chặt chẽ · Code phân tầng · Kiểm thử truy vết ✨</p>

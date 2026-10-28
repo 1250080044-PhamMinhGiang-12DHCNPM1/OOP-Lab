@@ -36,7 +36,6 @@ File draw.io gồm đúng tám trang:
 7. Kiến trúc `UI → Service → Data → SQL Server`.
 8. Thiết kế cơ sở dữ liệu.
 
-Các sơ đồ sử dụng phong cách học thuật thống nhất: nền vàng kem, đường nối hồng đỏ, bố cục rõ ràng và được chèn vào báo cáo Word.
 
 ## 🏗️ Kiến trúc ứng dụng
 
