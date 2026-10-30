@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="290" viewBox="0 0 1200 290" role="img" aria-labelledby="title desc">
+  <title id="title">LAB_AT_OOSD</title>
+  <desc id="desc">Phương pháp phát triển phần mềm hướng đối tượng</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#10243A"/>
+      <stop offset="55%" stop-color="#173E54"/>
+      <stop offset="100%" stop-color="#17646B"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#7DD3C7"/>
+      <stop offset="100%" stop-color="#C6F6D5"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="290" rx="20" fill="url(#bg)"/>
+  <circle cx="1095" cy="35" r="180" fill="none" stroke="#D5FFF4" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="1095" cy="35" r="126" fill="none" stroke="#D5FFF4" stroke-opacity=".12" stroke-width="2"/>
+  <circle cx="1010" cy="195" r="122" fill="#D5FFF4" fill-opacity=".045"/>
+  <path d="M0 246 C270 196 526 284 805 240 S1064 216 1200 244" fill="none" stroke="url(#line)" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M0 263 C310 220 519 302 836 257 S1070 237 1200 262" fill="none" stroke="#A7F3D0" stroke-opacity=".22" stroke-width="2"/>
+  <rect x="74" y="52" width="164" height="29" rx="14" fill="#B9F1E5" fill-opacity=".16" stroke="#A7F3D0" stroke-opacity=".62"/>
+  <text x="156" y="72" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2" fill="#C6F6E8">OOP LAB SERIES</text>
+  <text x="72" y="151" font-family="Georgia, 'Times New Roman', serif" font-size="67" font-weight="700" letter-spacing="2" fill="#FFFFFF">LAB_AT_OOSD</text>
+  <text x="76" y="192" font-family="Segoe UI, Arial, sans-serif" font-size="24" fill="#D9F9F2">Phương pháp phát triển phần mềm hướng đối tượng</text>
+  <text x="77" y="224" font-family="Segoe UI, Arial, sans-serif" font-size="15" letter-spacing="1" fill="#B5E6DC">PHÂN TÍCH  ·  THIẾT KẾ  ·  HIỆN THỰC</text>
+</svg>

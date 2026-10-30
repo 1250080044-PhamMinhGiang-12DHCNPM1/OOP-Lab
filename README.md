@@ -50,13 +50,13 @@ Bộ bài tập LAB01–LAB07 về phân tích nghiệp vụ, thiết kế UML v
 
 | Bài lab | Chủ đề |
 |---|---|
-| [LAB01](./LAB01/) | Buổi học đầu tiên về phương pháp phát triển phần mềm hướng đối tượng |
-| [LAB02](./LAB02/) | Hệ thống quản lý thư viện |
-| [LAB03](./LAB03/) | Hệ thống quản lý khách sạn |
-| [LAB04](./LAB04/) | Hệ thống mua sắm trực tuyến e-SHOPPING |
-| [LAB05](./LAB05/) | Quản lý công ty du lịch |
-| [LAB06](./LAB06/) | Quản lý hồ sơ bệnh án |
-| [LAB07](./LAB07/) | Quản lý nhân sự Công ty Sơn Đông Á |
+| [LAB01](./LAB_AT_OOSD/LAB01/) | Buổi học đầu tiên về phương pháp phát triển phần mềm hướng đối tượng |
+| [LAB02](./LAB_AT_OOSD/LAB02/) | Hệ thống quản lý thư viện |
+| [LAB03](./LAB_AT_OOSD/LAB03/) | Hệ thống quản lý khách sạn |
+| [LAB04](./LAB_AT_OOSD/LAB04/) | Hệ thống mua sắm trực tuyến e-SHOPPING |
+| [LAB05](./LAB_AT_OOSD/LAB05/) | Quản lý công ty du lịch |
+| [LAB06](./LAB_AT_OOSD/LAB06/) | Quản lý hồ sơ bệnh án |
+| [LAB07](./LAB_AT_OOSD/LAB07/) | Quản lý nhân sự Công ty Sơn Đông Á |
 
 ### 📌 Các dự án khác
 
