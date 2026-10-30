@@ -10,13 +10,13 @@
 
 | Thông tin | Nội dung |
 |---|---|
-| 👤 Họ tên | &nbsp; |
-| 🎓 Vai trò | &nbsp; |
-| 🏫 Trường | &nbsp; |
-| 📚 Khoa / Lớp | &nbsp; |
-| 📍 Địa điểm | &nbsp; |
-| 🌱 Đang học | &nbsp; |
-| 🔨 Đang làm | &nbsp; |
+| 👤 Họ tên | Phạm Minh Giang |
+| 🎓 Vai trò | sinh viên công nghệ thông tin |
+| 🏫 Trường | HCMUNRE |
+| 📚 Khoa / Lớp | CNTT |
+| 📍 Địa điểm | TpHCM |
+| 🌱 Đang học | Phương pháp phát triển phần mềm hướng đối tượng |
+| 🔨 Đang làm | sinh viên |
 
 <!-- Viết thêm các dòng tự giới thiệu của bạn tại đây. -->
 
