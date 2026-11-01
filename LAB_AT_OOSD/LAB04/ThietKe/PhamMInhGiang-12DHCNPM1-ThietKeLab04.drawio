@@ -1,5 +1,5 @@
 <mxfile host="app.diagrams.net" agent="Codex" pages="6">
-  <diagram id="truong-hop-su-dung" name="01 Trường hợp sử dụng">
+  <diagram id="truong-hop-su-dung" name="01-UseCase Tổng Quát">
     <mxGraphModel dx="1535" dy="772" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1205" pageHeight="835" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -77,7 +77,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="trang-thai" name="02 Trạng thái đặt hàng">
+  <diagram id="trang-thai" name="02-Sơ Đồ Trạng Thái">
     <mxGraphModel dx="1318" dy="663" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1340" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -175,8 +175,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="lop-nghiep-vu" name="03 Lớp thiết kế nghiệp vụ">
-    <mxGraphModel dx="1461" dy="735" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+  <diagram id="lop-nghiep-vu" name="03-Lớp thiết kế nghiệp vụ">
+    <mxGraphModel dx="1378" dy="693" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1320" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -339,8 +339,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="hoat-dong" name="04 Hoạt động đặt hàng">
-    <mxGraphModel dx="1758" dy="884" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1188" background="#FFFFFF" math="0" shadow="0">
+  <diagram id="hoat-dong" name="04-Hoạt động đặt hàng">
+    <mxGraphModel dx="2426" dy="1220" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1188" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -463,8 +463,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tuan-tu-san-pham" name="05 Tuần tự chọn sản phẩm">
-    <mxGraphModel dx="1183" dy="1562" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1235" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
+  <diagram id="tuan-tu-san-pham" name="05-Tuần tự chọn sản phẩm">
+    <mxGraphModel dx="1685" dy="1674" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1235" pageHeight="827" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -626,8 +626,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="tuan-tu-dat-hang" name="06 Tuần tự đặt hàng">
-    <mxGraphModel dx="982" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="675" pageHeight="585" background="#FFFFFF" math="0" shadow="0">
+  <diagram id="tuan-tu-dat-hang" name="06-Tuần tự đặt hàng">
+    <mxGraphModel dx="1213" dy="1195" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="675" pageHeight="585" background="#FFFFFF" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />

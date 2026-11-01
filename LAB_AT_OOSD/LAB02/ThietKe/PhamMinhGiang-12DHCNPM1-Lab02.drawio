@@ -1,0 +1,63 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="SukvwfU2JDcf2yRlW3Z1">
+    <mxGraphModel dx="1183" dy="735" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-14" edge="1" parent="1" source="MM7dPbYUlod-WEEnCDa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="MM7dPbYUlod-WEEnCDa3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-15" edge="1" parent="1" source="MM7dPbYUlod-WEEnCDa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="MM7dPbYUlod-WEEnCDa3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-16" edge="1" parent="1" source="MM7dPbYUlod-WEEnCDa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.465;entryY=-0.008;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="MM7dPbYUlod-WEEnCDa3-5">
+          <mxGeometry relative="1" x="-0.0127" as="geometry">
+            <Array as="points">
+              <mxPoint x="528.45" y="240" />
+              <mxPoint x="528.45" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-17" edge="1" parent="1" source="MM7dPbYUlod-WEEnCDa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="MM7dPbYUlod-WEEnCDa3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-18" edge="1" parent="1" source="MM7dPbYUlod-WEEnCDa3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;defaultLabelBackgroundColor=page;strokeWidth=2;" target="MM7dPbYUlod-WEEnCDa3-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;strokeWidth=2;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 25px;&quot;&gt;&lt;b&gt;Frm Main&lt;/b&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="70" width="280" x="390" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-2" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=1;" value="&lt;font style=&quot;font-size: 20px;&quot; face=&quot;Times New Roman&quot;&gt;&lt;b style=&quot;&quot;&gt;Frm Danh mục&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Frm Sách&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="180" x="220" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b style=&quot;&quot;&gt;Frm Độc giả&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="440" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Frm Mượn trả&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="660" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-7" parent="1" style="rounded=1;whiteSpace=wrap;html=1;roundedPerimeter=1;strokeWidth=1;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 20px;&quot;&gt;&lt;b&gt;Frm Thống kê&lt;/b&gt;&lt;/font&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="80" width="190" x="880" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;" value="&lt;font face=&quot;Times New Roman&quot; style=&quot;font-size: 15px;&quot;&gt;Nhân viên&lt;br style=&quot;&quot;&gt;Thể loại&lt;/font&gt;" vertex="1">
+          <mxGeometry height="50" width="120" x="10" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;" value="Đầu sách&lt;div&gt;Tìm kiếm&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="70" x="230" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;" value="Độc giả&lt;br&gt;Thẻ thư viện" vertex="1">
+          <mxGeometry height="50" width="90" x="450" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;" value="Mượn&amp;nbsp;&lt;div&gt;Trả&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="670" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="MM7dPbYUlod-WEEnCDa3-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontFamily=Times New Roman;fontSize=15;" value="Tổng hợp theo kỳ" vertex="1">
+          <mxGeometry height="30" width="120" x="890" y="280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

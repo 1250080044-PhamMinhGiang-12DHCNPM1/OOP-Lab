@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Codex" compressed="false" pages="5">
-  <diagram id="page-5" name="1 - Use Case tong quat">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1700" pageHeight="1180" math="0" shadow="0">
+  <diagram id="page-5" name="01 - Use Case Tổng Quan">
+    <mxGraphModel dx="3625" dy="968" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1700" pageHeight="1180" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -125,8 +125,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-1" name="2 - Use Case chi tiet">
-    <mxGraphModel dx="1423" dy="884" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1040" math="0" shadow="0">
+  <diagram id="page-1" name="02 - Use Case Chi Tiết">
+    <mxGraphModel dx="1685" dy="847" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1040" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -258,8 +258,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-2" name="3 - Activity Diagram">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1500" pageHeight="1650" math="0" shadow="0">
+  <diagram id="page-2" name="03 - Activity Diagram">
+    <mxGraphModel dx="3568" dy="1794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="1650" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -396,8 +396,8 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-3" name="4 - Sequence Lap toa thuoc">
-    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1600" pageHeight="1380" math="0" shadow="0">
+  <diagram id="page-3" name="04 - Sequence Lập Toa Thuốc">
+    <mxGraphModel dx="2476" dy="1245" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1380" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -588,7 +588,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-4" name="5 - Class Diagram">
+  <diagram id="page-4" name="05 -Biểu đồ lớp">
     <mxGraphModel dx="3816" dy="938" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1950" pageHeight="1250" math="0" shadow="0">
       <root>
         <mxCell id="0" />
